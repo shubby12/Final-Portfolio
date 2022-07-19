@@ -670,6 +670,9 @@ footer p:nth-child(2){
 
 
 @media (max-width:400px){
+    .content{
+        margin-bottom: 70px;
+    }
     .content .left h1{
         font-size: 30px;
         margin-top: -110px;
