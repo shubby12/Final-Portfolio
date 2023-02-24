@@ -79,13 +79,17 @@
     margin-bottom: 30rem;
 }
 
+.wave{
+    font-size: 60px;
+    color: black;
+    -webkit-box: reflect;
+}
 
 /* Left Content */
 .content .left{
     max-width: 50%;
     justify-content: center;
     margin-top: 15rem;
-
 }
 
 

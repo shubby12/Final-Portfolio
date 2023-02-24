@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header h1{
+    color: blueviolet;
+}
+
+h2{
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 20px;
+    align-items: center;
+    margin: 30px 13%;
+}
+
+
+img{
+    height: 600px;
+    width: 600px;
+    
+}
+.photos{
+    align-items: center;
+}
+
+.photos .images{
+    display: flex;
+    justify-content: center;
+    margin: 0 10% ;
+
+}
+
+.photos .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.photos .column{
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+    horizontal-align: middle;
+}
+
+
+
+
+
+
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 22vh;
+    background-color: grey;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    margin: 5px 0;
+}
+footer p:nth-child(1){
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 10px;
+    /* width: 500px; */
+    text-align: center;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 50%;
+    margin: 20px 10px;
+    text-decoration: none;
+    margin-bottom: 5rem;
+}
+.social a:hover{
+    background-color: grey;
+    color: black;
+}
+.last{
+    position: absolute;
+    color: white;
+    bottom: 25px;
+    font-size: 14px;
+}
